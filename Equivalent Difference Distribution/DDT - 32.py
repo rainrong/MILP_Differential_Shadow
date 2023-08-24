@@ -32,6 +32,9 @@ for i in range(256):
         
 print('差分分布表：')
 print('差分分布表：',file=f1)    
+'''  
+It is important to note that the function that outputs the differential distribution here is not universal.
+'''
 DD = np.zeros((256), dtype=int)#创建全0差分分布表-单行
 DD[0]=256;
 print('α=0\n')
